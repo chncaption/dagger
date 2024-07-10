@@ -4,7 +4,7 @@
 #
 #    hatch run lock
 #
-anyio==3.7.1
+anyio==4.4.0
     # via
     #   -r -
     #   httpcore
@@ -18,7 +18,7 @@ black==23.7.0
     # via -r -
 cattrs==23.1.2
     # via -r -
-certifi==2023.5.7
+certifi==2024.7.4
     # via
     #   httpcore
     #   httpx
@@ -43,7 +43,7 @@ httpx==0.24.1
     # via
     #   -r -
     #   pytest-httpx
-idna==3.4
+idna==3.7
     # via
     #   anyio
     #   httpx
@@ -113,3 +113,5 @@ typing-extensions==4.7.1
     #   typer
 yarl==1.9.2
     # via gql
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
