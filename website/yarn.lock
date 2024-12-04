@@ -1925,7 +1925,7 @@
     "@docusaurus/theme-search-algolia" "2.4.0"
     "@docusaurus/types" "2.4.0"
 
-"@docusaurus/react-loadable@5.5.2", "react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+"@docusaurus/react-loadable@5.5.2":
   version "5.5.2"
   resolved "https://registry.npmjs.org/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz"
   integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
@@ -5091,12 +5091,12 @@ docusaurus-plugin-includes@^1.1.4:
     fs-extra "^10.0.0"
     path "^0.12.7"
 
-docusaurus-plugin-sass@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.2.3.tgz#5b61f7e560d236cfc1531ed497ac32fc166fc5e2"
-  integrity sha512-FbaE06K8NF8SPUYTwiG+83/jkXrwHJ/Afjqz3SUIGon6QvFwSSoKOcoxGQmUBnjTOk+deUONDx8jNWsegFJcBQ==
+docusaurus-plugin-sass@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-sass/-/docusaurus-plugin-sass-0.2.6.tgz#b4930a1fe1cc7bcead639bb1bee38bce0ffd073d"
+  integrity sha512-2hKQQDkrufMong9upKoG/kSHJhuwd+FA3iAe/qzS/BmWpbIpe7XKmq5wlz4J5CJaOPu4x+iDJbgAxZqcoQf0kg==
   dependencies:
-    sass-loader "^10.1.1"
+    sass-loader "^16.0.2"
 
 docusaurus-plugin-typedoc@^0.19.2:
   version "0.19.2"
@@ -7596,7 +7596,7 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-klona@^2.0.4, klona@^2.0.5:
+klona@^2.0.5:
   version "2.0.5"
   resolved "https://registry.npmjs.org/klona/-/klona-2.0.5.tgz"
   integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
@@ -9908,6 +9908,14 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   dependencies:
     "@babel/runtime" "^7.10.3"
 
+"react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.npmjs.org/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz"
+  integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
+  dependencies:
+    "@types/react" "*"
+    prop-types "^15.6.2"
+
 react-router-config@^5.1.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/react-router-config/-/react-router-config-5.1.1.tgz"
@@ -10534,16 +10542,12 @@ safe-json-parse@~1.0.1:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass-loader@^10.1.1:
-  version "10.2.0"
-  resolved "https://registry.npmjs.org/sass-loader/-/sass-loader-10.2.0.tgz"
-  integrity sha512-kUceLzC1gIHz0zNJPpqRsJyisWatGYNFRmv2CKZK2/ngMJgLqxTbXwe/hJ85luyvZkgqU3VlJ33UVF2T/0g6mw==
+sass-loader@^16.0.2:
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-16.0.4.tgz#5c2afb755fbc0a45a004369efa11579518a39a45"
+  integrity sha512-LavLbgbBGUt3wCiYzhuLLu65+fWXaXLmq7YxivLhEqmiupCFZ5sKUAipK3do6V80YSU0jvSxNhEdT13IXNr3rg==
   dependencies:
-    klona "^2.0.4"
-    loader-utils "^2.0.0"
     neo-async "^2.6.2"
-    schema-utils "^3.0.0"
-    semver "^7.3.2"
 
 sass@^1.32.13, sass@^1.63.6:
   version "1.63.6"
